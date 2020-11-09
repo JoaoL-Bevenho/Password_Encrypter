@@ -97,7 +97,10 @@ public static String getSaltVar(int length)
 			System.out.println("Your input in MD5 + SALT: " + generatedSaltPw);
 			System.out.println("Does the password and encrypted password match?");
 			System.out.println("Answer: \'" + verifiedUserPasswordToString + "\'");
-			
+			//test
+			//6cqDAiJCnOZ6zB3PrSIDgAMkQLYM8HUSlqGOOwuP6za8P3WNnQemfD4ZLbbMxlLqcYHjEPOAU3X5kSa45BnDfL9vfZRk8zUaeN3n
+			//098f6bcd4621d373cade4e832627b4f6
+			//48NqI0x6BMrWGCP43kbSLuBFlp4p6YwXJU6mQzEtvnU=
 		}
 		catch(Exception e) { }
 	}
