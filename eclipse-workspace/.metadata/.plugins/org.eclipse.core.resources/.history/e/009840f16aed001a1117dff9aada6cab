@@ -1,0 +1,27 @@
+package Encrypter;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
+public class Password
+{
+	public static void main (String args[])
+	{
+		System.out.println("Java Hello World");
+		float number;
+		System.out.println("Enter a number");
+        try
+        {
+            InputStreamReader in = new InputStreamReader(System.in);
+            BufferedReader br = new BufferedReader(in);
+            String a = br.readLine();
+            number = Integer.valueOf(a);
+            int x = number;
+
+//            System.out.println("Your input=" + number);
+            System.out.println("Your input in integer terms is = " + x);
+        }
+        catch(Exception e){
+        }
+	}
+}
