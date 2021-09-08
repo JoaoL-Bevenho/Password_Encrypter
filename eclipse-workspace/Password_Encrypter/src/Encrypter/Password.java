@@ -82,7 +82,7 @@ public static String getSaltVar(int length)
 	public static void main (String args[])
 	{
 		Scanner input = new Scanner(System.in);
-		System.out.println("Enter a password");
+		System.out.print("Enter a password: ");
 		try
 		{
 			String password = input.next();
